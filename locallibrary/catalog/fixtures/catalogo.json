@@ -1,0 +1,5407 @@
+[
+    {
+        "model": "catalog.book",
+        "pk": 1,
+        "fields": {
+            "title": "1984",
+            "author": 1,
+            "summary": "Nineteen Eighty-Four, often published as 1984, is a dystopian novel by English writer George Orwell published in June 1949. The novel is set in the year 1984 when most of the world population have become victims of perpetual war, omnipresent government surveillance and propaganda.",
+            "isbn": "9780451524935",
+            "language": null,
+            "genre": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 2,
+        "fields": {
+            "title": "Dandelion Wine",
+            "author": 2,
+            "summary": "Dandelion Wine is a 1957 novel by Ray Bradbury, taking place in the summer of 1928 in the fictional town of Green Town, Illinois, based upon Bradbury's childhood home of Waukegan, Illinois. The novel developed from the short story \"Dandelion Wine\" which appeared in the June 1953 issue of Gourmet magazine.",
+            "isbn": "9780553277531",
+            "language": null,
+            "genre": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 3,
+        "fields": {
+            "title": "Fahrenheit 451",
+            "author": 2,
+            "summary": "Fahrenheit 451 is a dystopian novel by American writer Ray Bradbury, first published in 1953. It is regarded as one of his best works. The novel presents a future American society where books are outlawed and \"firemen\" burn any that are found.",
+            "isbn": "9781451673319",
+            "language": null,
+            "genre": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 4,
+        "fields": {
+            "title": "One Hundred Years of Solitude",
+            "author": 3,
+            "summary": "One Hundred Years of Solitude is a landmark 1967 novel by Colombian author Gabriel García Márquez that tells the multi-generational story of the Buendía family, whose patriarch, José Arcadio Buendía, founded the town of Macondo, a fictitious town in the country of Colombia.",
+            "isbn": "9780060883287",
+            "language": null,
+            "genre": [
+                4,
+                5
+            ]
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 5,
+        "fields": {
+            "title": "To Kill a Mockingbird",
+            "author": 4,
+            "summary": "To Kill a Mockingbird is a novel by Harper Lee published in 1960. It was immediately successful, winning the Pulitzer Prize, and has become a classic of modern American literature.",
+            "isbn": "9780060935467",
+            "language": null,
+            "genre": [
+                6,
+                7,
+                8,
+                9
+            ]
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 6,
+        "fields": {
+            "title": "For Whom The Bell Tolls",
+            "author": 5,
+            "summary": "For Whom the Bell Tolls is a novel by Ernest Hemingway published in 1940. It tells the story of Robert Jordan, a young American volunteer attached to a Republican guerrilla unit during the Spanish Civil War. As a dynamiter, he is assigned to blow up a bridge during an attack on the city of Segovia.",
+            "isbn": "9780784808795",
+            "language": null,
+            "genre": [
+                10
+            ]
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 7,
+        "fields": {
+            "title": "Go Set a Watchman",
+            "author": 4,
+            "summary": "Go Set a Watchman is a novel by Harper Lee published on July 14, 2015 by HarperCollins, United States and William Heinemann, United Kingdom. Although written before her first and only other published novel, the Pulitzer Prize–winning To Kill a Mockingbird—and initially promoted by its publisher as a sequel—it is now accepted as being a first draft of the famous novel, with many passages being used again in To Kill a Mockingbird",
+            "isbn": "9788491390572",
+            "language": null,
+            "genre": [
+                11
+            ]
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 8,
+        "fields": {
+            "title": "The Brothers Karamazov",
+            "author": 6,
+            "summary": "The Brothers Karamazov, also translated as The Karamazov Brothers, is the final novel by the Russian author Fyodor Dostoevsky. Dostoevsky spent nearly two years writing The Brothers Karamazov, which was published as a serial in The Russian Messenger from January 1879 to November 1880.",
+            "isbn": "9785521005567",
+            "language": null,
+            "genre": [
+                11,
+                12
+            ]
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 9,
+        "fields": {
+            "title": "The Idiot",
+            "author": 6,
+            "summary": "The title is an ironic reference to the central character of the novel, Prince (Knyaz) Lev Nikolayevich Myshkin, a young man whose goodness, open-hearted simplicity and guilelessness lead many of the more worldly characters he encounters to mistakenly assume that he lacks intelligence and insight. In the character of Prince Myshkin, Dostoevsky set himself the task of depicting \"the positively good and beautiful man.\"[1] The novel examines the consequences of placing such a unique individual at the centre of the conflicts, desires, passions and egoism of worldly society, both for the man himself and for those with whom he becomes involved.",
+            "isbn": "9780850670356",
+            "language": null,
+            "genre": [
+                13
+            ]
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 10,
+        "fields": {
+            "title": "Crime and Punishment",
+            "author": 6,
+            "summary": "Crime and Punishment focuses on the mental anguish and moral dilemmas of Rodion Raskolnikov, an impoverished ex-student in Saint Petersburg who formulates a plan to kill an unscrupulous pawnbroker for her money. Before the killing, Raskolnikov believes that with the money he could liberate himself from poverty and go on to perform great deeds. However, once it is done he finds himself racked with confusion, paranoia, and disgust for what he has done. His ethical justifications disintegrate completely as he struggles with guilt and horror and confronts the real-world moral consequences of his deed.",
+            "isbn": "9788897572657",
+            "language": null,
+            "genre": [
+                12,
+                14
+            ]
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 11,
+        "fields": {
+            "title": "Demons",
+            "author": 6,
+            "summary": "Demons is an allegory of the potentially catastrophic consequences of the political and moral nihilism that were becoming prevalent in Russia in the 1860s. A fictional town descends into chaos as it becomes the focal point of an attempted revolution, orchestrated by master conspirator Pyotr Verkhovensky. The mysterious aristocratic figure of Nikolai Stavrogin—Verkhovensky's counterpart in the moral sphere—dominates the book, exercising an extraordinary influence over the hearts and minds of almost all the other characters. The idealistic, western-influenced generation of the 1840s, epitomized in the character of Stepan Verkhovensky (who is both Pyotr Verkhovensky's father and Nikolai Stavrogin's childhood teacher), are presented as the unconscious progenitors and helpless accomplices of the 'demonic' forces that take possession of the town.",
+            "isbn": "9788402040893",
+            "language": null,
+            "genre": [
+                13,
+                15
+            ]
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 12,
+        "fields": {
+            "title": "La economía en 365 preguntas",
+            "author": 7,
+            "summary": "",
+            "isbn": "9788425227974",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 13,
+        "fields": {
+            "title": "Los detectives de elefantes",
+            "author": 8,
+            "summary": "",
+            "isbn": "9788414040874",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 14,
+        "fields": {
+            "title": "Último acto en el teatro de la Ópera",
+            "author": 9,
+            "summary": "",
+            "isbn": "9788408038221",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 15,
+        "fields": {
+            "title": "La Agenda 2030 : implicaciones y retos para las administraciones locales",
+            "author": null,
+            "summary": "",
+            "isbn": "9788412026764",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 16,
+        "fields": {
+            "title": "Las chicas de la 305",
+            "author": 10,
+            "summary": "",
+            "isbn": "9788469891155",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 17,
+        "fields": {
+            "title": "Todo lo que sé sobre fiestas, citas, amigos, trabajo, vida, el amor",
+            "author": 11,
+            "summary": "",
+            "isbn": "9788408239321",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 18,
+        "fields": {
+            "title": "Alí Babá y los cuarenta ladrones. (2008)",
+            "author": null,
+            "summary": "",
+            "isbn": "9788493621650 (obra completa)",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 19,
+        "fields": {
+            "title": "Cuentos de Eva Luna",
+            "author": 12,
+            "summary": "",
+            "isbn": "8439598467",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 20,
+        "fields": {
+            "title": "¡Tómate un respiro! : mindfulness : el arte de mantener la calma en medio de la tempestad",
+            "author": 13,
+            "summary": "",
+            "isbn": "9788467048766",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 21,
+        "fields": {
+            "title": "Yo, asesino",
+            "author": 14,
+            "summary": "",
+            "isbn": "9788467917246",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 22,
+        "fields": {
+            "title": "Qué es la guerra",
+            "author": 15,
+            "summary": "",
+            "isbn": "9788417178086",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 23,
+        "fields": {
+            "title": "Violeta y su arco iris",
+            "author": 16,
+            "summary": "",
+            "isbn": "9788493478193",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 24,
+        "fields": {
+            "title": "Emocionarte : la doble vida de los cuadros",
+            "author": 17,
+            "summary": "",
+            "isbn": "9788467060294",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 25,
+        "fields": {
+            "title": "Los zapatos rojos",
+            "author": 18,
+            "summary": "",
+            "isbn": "9788415130239",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 26,
+        "fields": {
+            "title": "Animal fun! = ¡Los animales!",
+            "author": null,
+            "summary": "",
+            "isbn": "9788444102849",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 27,
+        "fields": {
+            "title": "Ocultos en el bosque",
+            "author": 19,
+            "summary": "",
+            "isbn": "9788413430546",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 28,
+        "fields": {
+            "title": "Mariano Anós : pinturas : [exposición], Sala Municipal Arte Joven, del 12 de enero al 4 de febrero de 1990",
+            "author": 20,
+            "summary": "",
+            "isbn": "",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 29,
+        "fields": {
+            "title": "Nadie como ella",
+            "author": 21,
+            "summary": "",
+            "isbn": "9788418038204",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 30,
+        "fields": {
+            "title": "Cuento de Navidad",
+            "author": 22,
+            "summary": "",
+            "isbn": "9788431671679",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 31,
+        "fields": {
+            "title": "El delfín",
+            "author": 23,
+            "summary": "",
+            "isbn": "9788468439969",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 32,
+        "fields": {
+            "title": "Anuario Ornitológico de Aragón 2015-17 : AODA. Vol. IX",
+            "author": null,
+            "summary": "",
+            "isbn": "",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 33,
+        "fields": {
+            "title": "El apasionante juego del Ajedrez. (1994)",
+            "author": null,
+            "summary": "",
+            "isbn": "8430577637",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 34,
+        "fields": {
+            "title": "Apocalypse now [Videograbación] : redux",
+            "author": null,
+            "summary": "",
+            "isbn": "",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 35,
+        "fields": {
+            "title": "Guerra y cuchillo : Los Sitios de Zaragoza (1808-1809)",
+            "author": 24,
+            "summary": "",
+            "isbn": "9788413840475",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 36,
+        "fields": {
+            "title": "Utilidad de las desgracias y otros textos",
+            "author": 25,
+            "summary": "",
+            "isbn": "9788490668696",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 37,
+        "fields": {
+            "title": "Emanuela de Dampierre : Esposa y madre de los Borbones que pudieron reinar en España",
+            "author": 26,
+            "summary": "",
+            "isbn": "8497341414",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 38,
+        "fields": {
+            "title": "Eichmann en Jerusalén",
+            "author": 27,
+            "summary": "",
+            "isbn": "9788483460665",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 39,
+        "fields": {
+            "title": "Felicidad con Aristóleles",
+            "author": 28,
+            "summary": "",
+            "isbn": "9788427222656",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 40,
+        "fields": {
+            "title": "Manual de filosofía portátil",
+            "author": 29,
+            "summary": "",
+            "isbn": "9788418807879",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 41,
+        "fields": {
+            "title": "El sistema inmunitario por fin sale del armario : vive una vida plena, larga y saludable",
+            "author": 30,
+            "summary": "",
+            "isbn": "9788413441580",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 42,
+        "fields": {
+            "title": "Arquitectura del agua y territorio en la época moderna",
+            "author": null,
+            "summary": "",
+            "isbn": "9788413243993",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 43,
+        "fields": {
+            "title": "Arrebato [Videograbación]",
+            "author": null,
+            "summary": "",
+            "isbn": "",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 44,
+        "fields": {
+            "title": "Catalina de Aragón, Reina de Inglaterra",
+            "author": 31,
+            "summary": "",
+            "isbn": "849734085X",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 45,
+        "fields": {
+            "title": "Trilogía de la Fundación",
+            "author": 32,
+            "summary": "",
+            "isbn": "9788499083209",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 46,
+        "fields": {
+            "title": "El país donde florece el limonero : la historia de Italia y sus cítricos",
+            "author": 33,
+            "summary": "",
+            "isbn": "9788416748402",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 47,
+        "fields": {
+            "title": "Las aventuras de Tintín [Videograbación] : el secreto del unicornio",
+            "author": null,
+            "summary": "",
+            "isbn": "",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 48,
+        "fields": {
+            "title": "Babe, el cerdito valiente [Videograbación]",
+            "author": null,
+            "summary": "",
+            "isbn": "",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 49,
+        "fields": {
+            "title": "Laberinto de juegos",
+            "author": 34,
+            "summary": "",
+            "isbn": "9788493672607",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 50,
+        "fields": {
+            "title": "El misterio del cuaderno chino",
+            "author": 35,
+            "summary": "",
+            "isbn": "9788427133846",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 51,
+        "fields": {
+            "title": "Vampiros en el Castillo Colmillos",
+            "author": 36,
+            "summary": "",
+            "isbn": "8423668703",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 52,
+        "fields": {
+            "title": "Bob Esponja va al médico",
+            "author": 37,
+            "summary": "",
+            "isbn": "9788444165592",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 53,
+        "fields": {
+            "title": "Las largas sombras",
+            "author": 38,
+            "summary": "",
+            "isbn": "9788466384773",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 54,
+        "fields": {
+            "title": "Asedio y tormenta",
+            "author": 39,
+            "summary": "",
+            "isbn": "9788418002502",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 55,
+        "fields": {
+            "title": "Ruina y ascenso",
+            "author": 39,
+            "summary": "",
+            "isbn": "9788418002519",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 56,
+        "fields": {
+            "title": "Sombra y hueso",
+            "author": 39,
+            "summary": "",
+            "isbn": "9788418002496",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 57,
+        "fields": {
+            "title": "Seda",
+            "author": 40,
+            "summary": "",
+            "isbn": "9788433976598",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 58,
+        "fields": {
+            "title": "Los crímenes de la carretera",
+            "author": 41,
+            "summary": "",
+            "isbn": "9788423359141",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 59,
+        "fields": {
+            "title": "El último juego",
+            "author": 41,
+            "summary": "",
+            "isbn": "9788423361403",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 60,
+        "fields": {
+            "title": "Género : una guía gráfica",
+            "author": 42,
+            "summary": "",
+            "isbn": "9788418403231",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 61,
+        "fields": {
+            "title": "¡Que me parta un rayo!",
+            "author": 43,
+            "summary": "",
+            "isbn": "8423625559",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 62,
+        "fields": {
+            "title": "La cruzada albigense y el imperio aragonés : la verdadera historia de los cátaros, Jaime I el Conquistador y la expansión de la Corona de Aragón",
+            "author": 44,
+            "summary": "",
+            "isbn": "9788497633659",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 63,
+        "fields": {
+            "title": "El tiempo escondido",
+            "author": 45,
+            "summary": "",
+            "isbn": "9788496778542",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 64,
+        "fields": {
+            "title": "El libro del agua : lo que necesitamos saber sobre esta fuente de vida",
+            "author": 46,
+            "summary": "",
+            "isbn": "9788494058240",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 65,
+        "fields": {
+            "title": "Lo mejor de Aragón : experiencias y lugares auténticos",
+            "author": 47,
+            "summary": "",
+            "isbn": "9788408254461",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 66,
+        "fields": {
+            "title": "El bebé del fin del mundo",
+            "author": 48,
+            "summary": "",
+            "isbn": "8434509946",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 67,
+        "fields": {
+            "title": "El arte clásico : de Grecia a Roma",
+            "author": 49,
+            "summary": "",
+            "isbn": "9788413843292",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 68,
+        "fields": {
+            "title": "Never give up : secretos de una muser",
+            "author": 50,
+            "summary": "",
+            "isbn": "9788448024970",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 69,
+        "fields": {
+            "title": "El ejército de la nada",
+            "author": 51,
+            "summary": "",
+            "isbn": "9788420406350",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 70,
+        "fields": {
+            "title": "Los hombres de Putin cómo el KGB se apoderó de Rusia y se enfrentó a Occidente",
+            "author": 52,
+            "summary": "",
+            "isbn": "9788411000697",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 71,
+        "fields": {
+            "title": "Todas esas cosas que te diré mañana",
+            "author": 53,
+            "summary": "",
+            "isbn": "9788491295976",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 72,
+        "fields": {
+            "title": "Descubre el huerto biodinámico : [cultiva siguiendo los ritmos de la naturaleza]",
+            "author": 54,
+            "summary": "",
+            "isbn": "9788494433474",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 73,
+        "fields": {
+            "title": "Elieta",
+            "author": 55,
+            "summary": "",
+            "isbn": "8426319914",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 74,
+        "fields": {
+            "title": "Jardinosofía : una historia filosófica de los jardines",
+            "author": 56,
+            "summary": "",
+            "isbn": "9788416354085",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 75,
+        "fields": {
+            "title": "Big Fish [Videograbación]",
+            "author": null,
+            "summary": "",
+            "isbn": "",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 76,
+        "fields": {
+            "title": "Cuentos navideños",
+            "author": 57,
+            "summary": "",
+            "isbn": "9788490941379",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 77,
+        "fields": {
+            "title": "Acuarela : inspiración y técnicas de artistas contemporáneos",
+            "author": 58,
+            "summary": "",
+            "isbn": "9788425227974",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 78,
+        "fields": {
+            "title": "Dibujar : trucos, técnicas y recursos para la inspiración visual",
+            "author": 58,
+            "summary": "",
+            "isbn": "9788425226939",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 79,
+        "fields": {
+            "title": "Animalotes : Episodios 11 y 12",
+            "author": 59,
+            "summary": "",
+            "isbn": "9788469891452",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 80,
+        "fields": {
+            "title": "Animalotes : Episodios 9 y 10",
+            "author": 59,
+            "summary": "",
+            "isbn": "9788469888858",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 81,
+        "fields": {
+            "title": "Kragos y Kildor : el demonio de dos cabezas",
+            "author": 60,
+            "summary": "",
+            "isbn": "9788408120544",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 82,
+        "fields": {
+            "title": "¡Lávate los dientes!",
+            "author": 61,
+            "summary": "",
+            "isbn": "9788408246268",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 83,
+        "fields": {
+            "title": "La chica invisible",
+            "author": 62,
+            "summary": "",
+            "isbn": "9788408184782",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 84,
+        "fields": {
+            "title": "Los crímenes de Chopin",
+            "author": 62,
+            "summary": "",
+            "isbn": "9788408257417",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 85,
+        "fields": {
+            "title": "La promesa de Julia",
+            "author": 62,
+            "summary": "",
+            "isbn": "9788408224754",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 86,
+        "fields": {
+            "title": "El puzle de cristal",
+            "author": 62,
+            "summary": "",
+            "isbn": "9788408205692",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 87,
+        "fields": {
+            "title": "Los cinco en el cerro del contrabandista",
+            "author": 63,
+            "summary": "",
+            "isbn": "9788447377985",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 88,
+        "fields": {
+            "title": "Los cinco en la caravana",
+            "author": 63,
+            "summary": "",
+            "isbn": "9788447377992",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 89,
+        "fields": {
+            "title": "Los cinco otra vez en la isla de Kirrin",
+            "author": 63,
+            "summary": "",
+            "isbn": "9788447378005",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 90,
+        "fields": {
+            "title": "Los cinco se escapan",
+            "author": 63,
+            "summary": "",
+            "isbn": "9788447377978",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 91,
+        "fields": {
+            "title": "Los cinco se ven en apuros",
+            "author": 63,
+            "summary": "",
+            "isbn": "9788447378029",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 92,
+        "fields": {
+            "title": "Los cinco van de acampada",
+            "author": 63,
+            "summary": "",
+            "isbn": "9788447378012",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 93,
+        "fields": {
+            "title": "Los cinco viven una nueva aventura",
+            "author": 63,
+            "summary": "",
+            "isbn": "9788447377961",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 94,
+        "fields": {
+            "title": "Claudina en Santa Clara",
+            "author": 63,
+            "summary": "",
+            "isbn": "9788467225297",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 95,
+        "fields": {
+            "title": "Cuarto curso en Torres de Malory",
+            "author": 63,
+            "summary": "",
+            "isbn": "9788467225266",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 96,
+        "fields": {
+            "title": "Las mellizas cambian de colegio",
+            "author": 63,
+            "summary": "",
+            "isbn": "9788467225211",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 97,
+        "fields": {
+            "title": "Las mellizas en Santa Clara",
+            "author": 63,
+            "summary": "",
+            "isbn": "9788467225259",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 98,
+        "fields": {
+            "title": "Las mellizas O'Sullivan",
+            "author": 63,
+            "summary": "",
+            "isbn": "9788467225235",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 99,
+        "fields": {
+            "title": "Primer curso en Torres de Malory",
+            "author": 63,
+            "summary": "",
+            "isbn": "9788467225204",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 100,
+        "fields": {
+            "title": "Quinto grado en Santa Clara",
+            "author": 63,
+            "summary": "",
+            "isbn": "9788467225310",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 101,
+        "fields": {
+            "title": "Quinto grado en Torres de Malory",
+            "author": 63,
+            "summary": "",
+            "isbn": "9788467225280",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 102,
+        "fields": {
+            "title": "Segundo curso en Santa Clara",
+            "author": 63,
+            "summary": "",
+            "isbn": "9788467225273",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 103,
+        "fields": {
+            "title": "Segundo grado en Torres de Malory",
+            "author": 63,
+            "summary": "",
+            "isbn": "9788467225228",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 104,
+        "fields": {
+            "title": "Tercer año en Torres de Malory",
+            "author": 63,
+            "summary": "",
+            "isbn": "9788467225242",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 105,
+        "fields": {
+            "title": "Último curso en Torres de Malory",
+            "author": 63,
+            "summary": "",
+            "isbn": "9788467225303",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 106,
+        "fields": {
+            "title": "La curiosa Aylén encuentra un amigo",
+            "author": 64,
+            "summary": "",
+            "isbn": "9500826313",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 107,
+        "fields": {
+            "title": "La baraja de plata",
+            "author": 65,
+            "summary": "",
+            "isbn": "9788418584718",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 108,
+        "fields": {
+            "title": "¿Qué le pasa al tiempo?",
+            "author": 66,
+            "summary": "",
+            "isbn": "9781474987172",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 109,
+        "fields": {
+            "title": "La recaraba",
+            "author": 67,
+            "summary": "",
+            "isbn": "843482518X",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 110,
+        "fields": {
+            "title": "¿Y después de los pañales?",
+            "author": 68,
+            "summary": "",
+            "isbn": "9788408233923",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 111,
+        "fields": {
+            "title": "Juegos de ayer para entrenar hoy",
+            "author": 69,
+            "summary": "",
+            "isbn": "8483167980",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 112,
+        "fields": {
+            "title": "Milo y Loberto",
+            "author": 70,
+            "summary": "",
+            "isbn": "9788482895734",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 113,
+        "fields": {
+            "title": "Caillou : ¡Felices fiestas!",
+            "author": null,
+            "summary": "",
+            "isbn": "9788444162461",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 114,
+        "fields": {
+            "title": "Eres el príncipe de todos mis palacios",
+            "author": 71,
+            "summary": "",
+            "isbn": "9788427043640",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 115,
+        "fields": {
+            "title": "El año de la República",
+            "author": 72,
+            "summary": "",
+            "isbn": "9788491398103",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 116,
+        "fields": {
+            "title": "Competencias mediáticas e informacionales : juego y aprendo",
+            "author": 73,
+            "summary": "",
+            "isbn": "9788491808183",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 117,
+        "fields": {
+            "title": "No tengas miedo a nada : cumple tus deseos con amor, alegría y paz interior",
+            "author": 74,
+            "summary": "",
+            "isbn": "9788408250876",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 118,
+        "fields": {
+            "title": "Ñamérica",
+            "author": 75,
+            "summary": "",
+            "isbn": "9788439738015",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 119,
+        "fields": {
+            "title": "Veo veo",
+            "author": 76,
+            "summary": "",
+            "isbn": "9788467244052",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 120,
+        "fields": {
+            "title": "Cars 3. (2017)",
+            "author": null,
+            "summary": "",
+            "isbn": "9788416913305",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 121,
+        "fields": {
+            "title": "Aragonés : [al servicio de Pedro III el Grande]",
+            "author": 77,
+            "summary": "",
+            "isbn": "9788495487643 (corr.)",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 122,
+        "fields": {
+            "title": "Por el camino de Ulectra",
+            "author": 78,
+            "summary": "",
+            "isbn": "9788466762939",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 123,
+        "fields": {
+            "title": "Qué poca prisa se da el amor",
+            "author": 78,
+            "summary": "",
+            "isbn": "8420782769",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 124,
+        "fields": {
+            "title": "La selección",
+            "author": 79,
+            "summary": "",
+            "isbn": "9788499185286",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 125,
+        "fields": {
+            "title": "Caperucita Roja",
+            "author": 80,
+            "summary": "",
+            "isbn": "9788413543475",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 126,
+        "fields": {
+            "title": "Don Quijote de la Mancha : (selección)",
+            "author": 81,
+            "summary": "",
+            "isbn": "842635257X",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 127,
+        "fields": {
+            "title": "El virus Grizzly",
+            "author": 82,
+            "summary": "",
+            "isbn": "9788414024614",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 128,
+        "fields": {
+            "title": "99 tomates y una patata",
+            "author": 83,
+            "summary": "",
+            "isbn": "9788491016250",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 129,
+        "fields": {
+            "title": "Chicas al rescate",
+            "author": null,
+            "summary": "",
+            "isbn": "8420790745",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 130,
+        "fields": {
+            "title": "El pequeño libro de la casa",
+            "author": 84,
+            "summary": "",
+            "isbn": "9788408158066",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 131,
+        "fields": {
+            "title": "El misterioso señor Brown",
+            "author": 85,
+            "summary": "",
+            "isbn": "9788467066616",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 132,
+        "fields": {
+            "title": "Apelatibos, faltadas y finezas barias",
+            "author": 86,
+            "summary": "",
+            "isbn": "",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 133,
+        "fields": {
+            "title": "Ciudad de cristal",
+            "author": 87,
+            "summary": "",
+            "isbn": "9788408089766",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 134,
+        "fields": {
+            "title": "Climática : es tiempo de hablar del clima : magazine. (2021)",
+            "author": null,
+            "summary": "",
+            "isbn": "",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 135,
+        "fields": {
+            "title": "El primer vuelo de Kat",
+            "author": 88,
+            "summary": "",
+            "isbn": "9788427212473",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 136,
+        "fields": {
+            "title": "La gran carrera de Emma",
+            "author": 89,
+            "summary": "",
+            "isbn": "9788427213296",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 137,
+        "fields": {
+            "title": "El coche familiar. (2019)",
+            "author": null,
+            "summary": "",
+            "isbn": "9788408222590",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 138,
+        "fields": {
+            "title": "Balada de pájaros cantores y serpientes",
+            "author": 90,
+            "summary": "",
+            "isbn": "9788427220287",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 139,
+        "fields": {
+            "title": "El diario de Lerdus Maximus en Egipto",
+            "author": 91,
+            "summary": "",
+            "isbn": "9788415579618",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 140,
+        "fields": {
+            "title": "El concierto [Videograbación]",
+            "author": null,
+            "summary": "",
+            "isbn": "",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 141,
+        "fields": {
+            "title": "En lo más profundo del sur",
+            "author": 92,
+            "summary": "",
+            "isbn": "9788411071420",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 142,
+        "fields": {
+            "title": "Contrarios. (200?)",
+            "author": null,
+            "summary": "",
+            "isbn": "",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 143,
+        "fields": {
+            "title": "La guerra del bosque",
+            "author": 93,
+            "summary": "",
+            "isbn": "9788491010401",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 144,
+        "fields": {
+            "title": "¡Llega el Sr. Flat!",
+            "author": 93,
+            "summary": "",
+            "isbn": "9788498259117",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 145,
+        "fields": {
+            "title": "¡Virus!",
+            "author": 93,
+            "summary": "",
+            "isbn": "9788491014713",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 146,
+        "fields": {
+            "title": "La ciudad violenta :un paseo por la historia criminal y revolucionaria de Barcelona",
+            "author": 94,
+            "summary": "",
+            "isbn": "9788411000086",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 147,
+        "fields": {
+            "title": "Fulcanelli : el dueño del secreto",
+            "author": 95,
+            "summary": "",
+            "isbn": "9788492472079",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 148,
+        "fields": {
+            "title": "El Cid",
+            "author": 95,
+            "summary": "",
+            "isbn": "8435060101",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 149,
+        "fields": {
+            "title": "Corona de sangre",
+            "author": 95,
+            "summary": "",
+            "isbn": "9788466672740",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 150,
+        "fields": {
+            "title": "Para qué leer : fomentar la lectura en jóvenes y adolescentes",
+            "author": 96,
+            "summary": "",
+            "isbn": "9788418381928",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 151,
+        "fields": {
+            "title": "La música de los prodigios",
+            "author": 97,
+            "summary": "",
+            "isbn": "9788417834609",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 152,
+        "fields": {
+            "title": "Cuento de Navidad. (2008)",
+            "author": null,
+            "summary": "",
+            "isbn": "9788493621650 (obra completa)",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 153,
+        "fields": {
+            "title": "Los cuentos de Caitú. [2005]",
+            "author": null,
+            "summary": "",
+            "isbn": "8496007707",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 154,
+        "fields": {
+            "title": "Los cuentos de Caitú. 2007",
+            "author": null,
+            "summary": "",
+            "isbn": "",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 155,
+        "fields": {
+            "title": "Cuentos de siempre",
+            "author": null,
+            "summary": "",
+            "isbn": "9788491017912",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 156,
+        "fields": {
+            "title": "Charlie y el gran ascensor de cristal",
+            "author": 98,
+            "summary": "",
+            "isbn": "8420401420",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 157,
+        "fields": {
+            "title": "Los mejores relatos de Roald Dahl. (2016)",
+            "author": 98,
+            "summary": "",
+            "isbn": "9788491220695",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 158,
+        "fields": {
+            "title": "La dama de hierro [Videograbación]",
+            "author": null,
+            "summary": "",
+            "isbn": "",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 159,
+        "fields": {
+            "title": "Todo este tiempo",
+            "author": 99,
+            "summary": "",
+            "isbn": "9788417605698",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 160,
+        "fields": {
+            "title": "Osito Tito : ¡Feliz Navidad!",
+            "author": 100,
+            "summary": "",
+            "isbn": "9788408229711",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 161,
+        "fields": {
+            "title": "Los hobbits de Tolkien",
+            "author": 101,
+            "summary": "",
+            "isbn": "9788445010389",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 162,
+        "fields": {
+            "title": "The ant and de grasshopper",
+            "author": 102,
+            "summary": "",
+            "isbn": "9780746096536",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 163,
+        "fields": {
+            "title": "De la solastalgia : ocho relatos naturales",
+            "author": null,
+            "summary": "",
+            "isbn": "9788412463804",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 164,
+        "fields": {
+            "title": "De todo corazón : 111 poemas de amor",
+            "author": null,
+            "summary": "",
+            "isbn": "9788434867338 ; 8434867338",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 165,
+        "fields": {
+            "title": "La decisión de Sophie [Videograbación]",
+            "author": null,
+            "summary": "",
+            "isbn": "",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 166,
+        "fields": {
+            "title": "¿Dónde está mamá elefante?",
+            "author": 103,
+            "summary": "",
+            "isbn": "9788414002384",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 167,
+        "fields": {
+            "title": "1984",
+            "author": 104,
+            "summary": "",
+            "isbn": "9788491749295",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 168,
+        "fields": {
+            "title": "Madre solo hay una y aquí están todas",
+            "author": 105,
+            "summary": "",
+            "isbn": "9788448836573",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 169,
+        "fields": {
+            "title": "La contrahistoria del comunismo : la gran utopía del siglo XX en 35 episodios",
+            "author": 106,
+            "summary": "",
+            "isbn": "9788413843681",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 170,
+        "fields": {
+            "title": "El caso Alaska Sanders",
+            "author": 107,
+            "summary": "",
+            "isbn": "9788420462127",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 171,
+        "fields": {
+            "title": "Lenore",
+            "author": 108,
+            "summary": "",
+            "isbn": "9788498142525",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 172,
+        "fields": {
+            "title": "Cuentos para crecer",
+            "author": 109,
+            "summary": "",
+            "isbn": "9781412711272",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 173,
+        "fields": {
+            "title": "¿Dónde vives?. (200?)",
+            "author": null,
+            "summary": "",
+            "isbn": "9788430524334",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 174,
+        "fields": {
+            "title": "El hombre del tiempo : poemas estacionales",
+            "author": 110,
+            "summary": "",
+            "isbn": "9798547553509",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 175,
+        "fields": {
+            "title": "Dos en apuros",
+            "author": 111,
+            "summary": "",
+            "isbn": "8423637565",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 176,
+        "fields": {
+            "title": "Relatos de Sherlock Holmes",
+            "author": 112,
+            "summary": "",
+            "isbn": "9788499394206 9788499394206",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 177,
+        "fields": {
+            "title": "El camino de la montaña",
+            "author": 113,
+            "summary": "",
+            "isbn": "9788426145284",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 178,
+        "fields": {
+            "title": "Izzy + Tristán",
+            "author": 114,
+            "summary": "",
+            "isbn": "9788494841460",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 179,
+        "fields": {
+            "title": "Acercarse a la Generación Z : Una guía práctica para entender a la juventud actual sin prejuicios",
+            "author": 115,
+            "summary": "",
+            "isbn": "9788408251774",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 180,
+        "fields": {
+            "title": "Madrid será la tumba",
+            "author": 116,
+            "summary": "",
+            "isbn": "9788483812730",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 181,
+        "fields": {
+            "title": "Pensamiento creativo : 101 ideas para desarrollar el ingenio",
+            "author": 117,
+            "summary": "",
+            "isbn": "9783836516136",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 182,
+        "fields": {
+            "title": "La bailarina de Auschwitz : una inspiradora historia de valentía y supervivencia",
+            "author": 118,
+            "summary": "",
+            "isbn": "9788408180906",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 183,
+        "fields": {
+            "title": "No estamos locos",
+            "author": 119,
+            "summary": "",
+            "isbn": "9788408118657",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 184,
+        "fields": {
+            "title": "El viejo sillón de papá",
+            "author": null,
+            "summary": "",
+            "isbn": "9788448832407",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 185,
+        "fields": {
+            "title": "Elle. (1986)",
+            "author": 120,
+            "summary": "",
+            "isbn": "",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 186,
+        "fields": {
+            "title": "Agua dulce",
+            "author": 121,
+            "summary": "",
+            "isbn": "9788416205783",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 187,
+        "fields": {
+            "title": "Empieza la aventura. (2022)",
+            "author": null,
+            "summary": "",
+            "isbn": "9788418610134",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 188,
+        "fields": {
+            "title": "Senderos de savia : un viaje por las vías que nos conectan con las plantas",
+            "author": 122,
+            "summary": "",
+            "isbn": "9791220093859",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 189,
+        "fields": {
+            "title": "Piel de letra",
+            "author": 123,
+            "summary": "",
+            "isbn": "9788403518858",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 190,
+        "fields": {
+            "title": "Joaquín Escuder : [exposición] pinturas : 29 de enero-22 de febrero 1987, Sala del Museo Pablo Gargallo",
+            "author": 124,
+            "summary": "",
+            "isbn": "8450549310",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 191,
+        "fields": {
+            "title": "Los templarios y otros enigmas medievales",
+            "author": 125,
+            "summary": "",
+            "isbn": "",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 192,
+        "fields": {
+            "title": "Visigodos : la verdadera historia de la primera España",
+            "author": 126,
+            "summary": "",
+            "isbn": "9788491644194",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 193,
+        "fields": {
+            "title": "Historia ecclesiastica de la ciudad de Çaragoça : desde la venida de Jesuchristo, Señor y redemptor nuestro, hasta el año de 1575",
+            "author": 127,
+            "summary": "",
+            "isbn": "9788499115658",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 194,
+        "fields": {
+            "title": "La noche que nos escuchamos",
+            "author": 128,
+            "summary": "",
+            "isbn": "9788425361074",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 195,
+        "fields": {
+            "title": "Las estaciones",
+            "author": null,
+            "summary": "",
+            "isbn": "9788491017578",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 196,
+        "fields": {
+            "title": "El complot de Las Flores",
+            "author": 129,
+            "summary": "",
+            "isbn": "9788434894976",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 197,
+        "fields": {
+            "title": "Fiestas del Pilar 2022 Zaragoza, del 5 al 13 de octubre : [programa]. (2019)",
+            "author": null,
+            "summary": "",
+            "isbn": "",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 198,
+        "fields": {
+            "title": "Fiestas del Pilar 2022 : Zaragoza, del 8 al 16 de octubre, programa completo",
+            "author": null,
+            "summary": "",
+            "isbn": "",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 199,
+        "fields": {
+            "title": "El caballero de la armadura oxidada",
+            "author": 130,
+            "summary": "",
+            "isbn": "9788497772303",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 200,
+        "fields": {
+            "title": "Heridas abiertas",
+            "author": 131,
+            "summary": "",
+            "isbn": "9788466384858",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 201,
+        "fields": {
+            "title": "Número dos",
+            "author": 132,
+            "summary": "",
+            "isbn": "9788420463100",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 202,
+        "fields": {
+            "title": "El jardinero horticultor : manual para cultivar con éxito pequeñas huertas biointensivas",
+            "author": 133,
+            "summary": "",
+            "isbn": "9788412074376",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 203,
+        "fields": {
+            "title": "Antonio Fortún : [exposición], veinte años, cien pinturas, Espacio Pignatelli, 29 de marzo-29 de abril de 1990",
+            "author": 134,
+            "summary": "",
+            "isbn": "8486807239",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 204,
+        "fields": {
+            "title": "La señal torcida",
+            "author": 135,
+            "summary": "",
+            "isbn": "9788498443158",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 205,
+        "fields": {
+            "title": "La princesa Daisy y el dragón deslumbrante",
+            "author": 136,
+            "summary": "",
+            "isbn": "8466752366",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 206,
+        "fields": {
+            "title": "Momias al descubierto",
+            "author": 137,
+            "summary": "",
+            "isbn": "9788469888797",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 207,
+        "fields": {
+            "title": "La gran prueba",
+            "author": 138,
+            "summary": "",
+            "isbn": "9788444148120",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 208,
+        "fields": {
+            "title": "La red del pescador",
+            "author": 139,
+            "summary": "",
+            "isbn": "8493363758",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 209,
+        "fields": {
+            "title": "Tenemos que hablar de Putin : porqué Occidente se equivoca con el presidente ruso",
+            "author": 140,
+            "summary": "",
+            "isbn": "9788412457896",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 210,
+        "fields": {
+            "title": "El libro de los enigmas del país de las maravillas : 135 fabulosos acertijos inspirados en las aventuras de Alicia",
+            "author": 141,
+            "summary": "",
+            "isbn": "9788466384995",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 211,
+        "fields": {
+            "title": "Comunidades de energía y transición energética",
+            "author": 142,
+            "summary": "",
+            "isbn": "9788413916491",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 212,
+        "fields": {
+            "title": "Memorias de Idhún . La Resistencia : Búsqueda. Primera parte",
+            "author": 143,
+            "summary": "",
+            "isbn": "9788467535259",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 213,
+        "fields": {
+            "title": "Memorias de Idhún . La Resistencia : Búsqueda. Segunda parte",
+            "author": 143,
+            "summary": "",
+            "isbn": "9788467536423",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 214,
+        "fields": {
+            "title": "La resistencia",
+            "author": 143,
+            "summary": "",
+            "isbn": "9788467541168",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 215,
+        "fields": {
+            "title": "Stravagantia",
+            "author": 143,
+            "summary": "",
+            "isbn": "9788418949371",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 216,
+        "fields": {
+            "title": "El gallo Quirico",
+            "author": null,
+            "summary": "",
+            "isbn": "9788468008936",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 217,
+        "fields": {
+            "title": "Érase una vez un corazón roto",
+            "author": 144,
+            "summary": "",
+            "isbn": "9788417854447",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 218,
+        "fields": {
+            "title": "Geotermia somera : fundamentos teóricos y aplicación",
+            "author": 145,
+            "summary": "",
+            "isbn": "9788491381051",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 219,
+        "fields": {
+            "title": "Romancero gitano",
+            "author": 146,
+            "summary": "",
+            "isbn": "9788467036152",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 220,
+        "fields": {
+            "title": "Plagas agrícolas",
+            "author": 147,
+            "summary": "",
+            "isbn": "9788494669187",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 221,
+        "fields": {
+            "title": "El poder de Joel",
+            "author": 148,
+            "summary": "",
+            "isbn": "9788492974894",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 222,
+        "fields": {
+            "title": "Todos para uno--",
+            "author": 149,
+            "summary": "",
+            "isbn": "9788415580508",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 223,
+        "fields": {
+            "title": "La Mena y Anisilla",
+            "author": 150,
+            "summary": "",
+            "isbn": "9788420411224",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 224,
+        "fields": {
+            "title": "El jinete sin cabeza",
+            "author": 151,
+            "summary": "",
+            "isbn": "",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 225,
+        "fields": {
+            "title": "Dime la verdad",
+            "author": 152,
+            "summary": "",
+            "isbn": "9788491816478",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 226,
+        "fields": {
+            "title": "La rana glotona",
+            "author": 153,
+            "summary": "",
+            "isbn": "9788498254372",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 227,
+        "fields": {
+            "title": "El paraíso de Fede",
+            "author": 154,
+            "summary": "",
+            "isbn": "9788417995560",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 228,
+        "fields": {
+            "title": "La presidenta",
+            "author": 155,
+            "summary": "",
+            "isbn": "9788420461182",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 229,
+        "fields": {
+            "title": "Pacto de lealtad",
+            "author": 156,
+            "summary": "",
+            "isbn": "9788408127857",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 230,
+        "fields": {
+            "title": "El mago del paso subterráneo",
+            "author": 157,
+            "summary": "",
+            "isbn": "842633153X",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 231,
+        "fields": {
+            "title": "Botánica cercana : las hierbas comunes de pueblos y ciudades",
+            "author": 158,
+            "summary": "",
+            "isbn": "9788418458774",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 232,
+        "fields": {
+            "title": "Contrato con Dios",
+            "author": 159,
+            "summary": "",
+            "isbn": "9788466672405",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 233,
+        "fields": {
+            "title": "Todo arde",
+            "author": 159,
+            "summary": "",
+            "isbn": "9788466672474",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 234,
+        "fields": {
+            "title": "¡Mira por la ventana!",
+            "author": 160,
+            "summary": "",
+            "isbn": "9788414033708",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 235,
+        "fields": {
+            "title": "Bajo el volcán lila",
+            "author": 161,
+            "summary": "",
+            "isbn": "8421819356",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 236,
+        "fields": {
+            "title": "Todo va a mejorar",
+            "author": 162,
+            "summary": "",
+            "isbn": "9788411071734",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 237,
+        "fields": {
+            "title": "Luis Grañena, caricaturas : del 19 de mayo al 22 de julio : Museo Juan Cabré, Calaceite (Teruel)",
+            "author": 163,
+            "summary": "",
+            "isbn": "",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 238,
+        "fields": {
+            "title": "Animal : el día que me convertí en lobo",
+            "author": 164,
+            "summary": "",
+            "isbn": "9788467952193",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 239,
+        "fields": {
+            "title": "En busca del grafo perdido : matemáticas con puntos y rayas",
+            "author": 165,
+            "summary": "",
+            "isbn": "9788434432437",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 240,
+        "fields": {
+            "title": "Escuela de ajedrez : manual completo de iniciación ...",
+            "author": 166,
+            "summary": "",
+            "isbn": "8479022033",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 241,
+        "fields": {
+            "title": "Asesinato en el Jardín Botánico",
+            "author": 167,
+            "summary": "",
+            "isbn": "9788423361687",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 242,
+        "fields": {
+            "title": "Cuando el tiempo nos alcanza : memorias (1940-1982)",
+            "author": 168,
+            "summary": "",
+            "isbn": "8467014393",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 243,
+        "fields": {
+            "title": "La compañera",
+            "author": 169,
+            "summary": "",
+            "isbn": "9788426411013",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 244,
+        "fields": {
+            "title": "Guía Pilar 2022",
+            "author": null,
+            "summary": "",
+            "isbn": "",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 245,
+        "fields": {
+            "title": "La vida, después",
+            "author": 170,
+            "summary": "",
+            "isbn": "9788418968112",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 246,
+        "fields": {
+            "title": "Perro Apestoso : ¡millonario!",
+            "author": 171,
+            "summary": "",
+            "isbn": "9788418187643",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 247,
+        "fields": {
+            "title": "Perro Apestoso se enamora",
+            "author": 171,
+            "summary": "",
+            "isbn": "9788417552909",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 248,
+        "fields": {
+            "title": "Perro apestoso va a la playa",
+            "author": 171,
+            "summary": "",
+            "isbn": "9788418187834",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 249,
+        "fields": {
+            "title": "Perro Apestoso va al cole",
+            "author": 171,
+            "summary": "",
+            "isbn": "9788417552466",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 250,
+        "fields": {
+            "title": "Perro Apestoso y su pandilla",
+            "author": 171,
+            "summary": "",
+            "isbn": "9788419172211",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 251,
+        "fields": {
+            "title": "Infocracia : La digitalización y la crisis de la democracia",
+            "author": 172,
+            "summary": "",
+            "isbn": "9788430624898",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 252,
+        "fields": {
+            "title": "84, Charing Cross Road",
+            "author": 173,
+            "summary": "",
+            "isbn": "843396982X ; 9788433969828",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 253,
+        "fields": {
+            "title": "La vidente y la espada",
+            "author": 174,
+            "summary": "",
+            "isbn": "8434877449",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 254,
+        "fields": {
+            "title": "El silencio de los inocentes",
+            "author": 175,
+            "summary": "",
+            "isbn": "8422638304",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 255,
+        "fields": {
+            "title": "Una nariz muy larga",
+            "author": 176,
+            "summary": "",
+            "isbn": "8420777722",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 256,
+        "fields": {
+            "title": "¿Quién soy?",
+            "author": 177,
+            "summary": "",
+            "isbn": "9788416721856",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 257,
+        "fields": {
+            "title": "¿Quién soy?",
+            "author": 177,
+            "summary": "",
+            "isbn": "9788416721870",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 258,
+        "fields": {
+            "title": "Cazadores de Dune",
+            "author": 178,
+            "summary": "",
+            "isbn": "9788401336799",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 259,
+        "fields": {
+            "title": "Las 7 bolas de cristal",
+            "author": 179,
+            "summary": "",
+            "isbn": "8426102778",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 260,
+        "fields": {
+            "title": "Federico y sus familias",
+            "author": 180,
+            "summary": "",
+            "isbn": "9788417673482",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 261,
+        "fields": {
+            "title": "Historia : National Geographic. (2003)",
+            "author": null,
+            "summary": "",
+            "isbn": "",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 262,
+        "fields": {
+            "title": "¡Hola!. (1944)",
+            "author": null,
+            "summary": "",
+            "isbn": "",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 263,
+        "fields": {
+            "title": "Holiday time = De vacaciones",
+            "author": null,
+            "summary": "",
+            "isbn": "9788444102856",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 264,
+        "fields": {
+            "title": "Aniquilación",
+            "author": 181,
+            "summary": "",
+            "isbn": "9788433981219",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 265,
+        "fields": {
+            "title": "Las nietas de Baba",
+            "author": 182,
+            "summary": "",
+            "isbn": "9788417555597",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 266,
+        "fields": {
+            "title": "Adiós, pequeño",
+            "author": 183,
+            "summary": "",
+            "isbn": "9788408258568",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 267,
+        "fields": {
+            "title": "¡Cucú! ¿Quién soy? animales salvajes",
+            "author": 184,
+            "summary": "",
+            "isbn": "9789463546935",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 268,
+        "fields": {
+            "title": "Madres, padres y demás : apuntes sobre mi familia real y literaria",
+            "author": 185,
+            "summary": "",
+            "isbn": "9788432239892",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 269,
+        "fields": {
+            "title": "El cambio climático",
+            "author": 186,
+            "summary": "",
+            "isbn": "9788402424693",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 270,
+        "fields": {
+            "title": "¿Pero qué le pasa a Blasa?",
+            "author": 187,
+            "summary": "",
+            "isbn": "9788418609824",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 271,
+        "fields": {
+            "title": "Verdades a la cara : recuerdos de los años salvajes",
+            "author": 188,
+            "summary": "",
+            "isbn": "9788419179159",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 272,
+        "fields": {
+            "title": "Hansel y Gretel",
+            "author": 189,
+            "summary": "",
+            "isbn": "9788467730562",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 273,
+        "fields": {
+            "title": "La revolución de la glucosa : Equilibra tus niveles de glucosa y cambiarás tu salud y tu vida",
+            "author": 190,
+            "summary": "",
+            "isbn": "9788411190084",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 274,
+        "fields": {
+            "title": "Inside out",
+            "author": null,
+            "summary": "",
+            "isbn": "9788499516837",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 275,
+        "fields": {
+            "title": "Inventario español de los conocimientos tradicionales relativos a la biodiversidad : primera fase, introducción, metodología y fichas",
+            "author": null,
+            "summary": "",
+            "isbn": "9788449114014",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 276,
+        "fields": {
+            "title": "Las invisibles",
+            "author": null,
+            "summary": "",
+            "isbn": "9788412199161",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 277,
+        "fields": {
+            "title": "Romeo y Julieta",
+            "author": 191,
+            "summary": "",
+            "isbn": "9788466751735",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 278,
+        "fields": {
+            "title": "L'hombre l'onset : una leyenda del Valle de Hecho",
+            "author": 192,
+            "summary": "",
+            "isbn": "9788412360202",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 279,
+        "fields": {
+            "title": "It's my birthday = Es mi cumpleaños",
+            "author": null,
+            "summary": "",
+            "isbn": "9788444102887",
+            "language": null,
+            "genre": []
+        }
+    },
+    {
+        "model": "catalog.genre",
+        "pk": 1,
+        "fields": {
+            "name": "Science Fiction"
+        }
+    },
+    {
+        "model": "catalog.genre",
+        "pk": 2,
+        "fields": {
+            "name": "Dystopian Fiction"
+        }
+    },
+    {
+        "model": "catalog.genre",
+        "pk": 3,
+        "fields": {
+            "name": "Fantasy Fiction"
+        }
+    },
+    {
+        "model": "catalog.genre",
+        "pk": 4,
+        "fields": {
+            "name": "Magical Realism"
+        }
+    },
+    {
+        "model": "catalog.genre",
+        "pk": 5,
+        "fields": {
+            "name": "Family saga"
+        }
+    },
+    {
+        "model": "catalog.genre",
+        "pk": 6,
+        "fields": {
+            "name": "Bildungsroman"
+        }
+    },
+    {
+        "model": "catalog.genre",
+        "pk": 7,
+        "fields": {
+            "name": "Thriller"
+        }
+    },
+    {
+        "model": "catalog.genre",
+        "pk": 8,
+        "fields": {
+            "name": "Southern Gothic"
+        }
+    },
+    {
+        "model": "catalog.genre",
+        "pk": 9,
+        "fields": {
+            "name": "Legal Story"
+        }
+    },
+    {
+        "model": "catalog.genre",
+        "pk": 10,
+        "fields": {
+            "name": "War story"
+        }
+    },
+    {
+        "model": "catalog.genre",
+        "pk": 11,
+        "fields": {
+            "name": "Fiction"
+        }
+    },
+    {
+        "model": "catalog.genre",
+        "pk": 12,
+        "fields": {
+            "name": "Philosophical fiction"
+        }
+    },
+    {
+        "model": "catalog.genre",
+        "pk": 13,
+        "fields": {
+            "name": "Philosophical novel"
+        }
+    },
+    {
+        "model": "catalog.genre",
+        "pk": 14,
+        "fields": {
+            "name": "Psychological Fiction,"
+        }
+    },
+    {
+        "model": "catalog.genre",
+        "pk": 15,
+        "fields": {
+            "name": "Political novel"
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 1,
+        "fields": {
+            "first_name": "George",
+            "last_name": "Orwell",
+            "date_of_birth": "1903-06-25",
+            "date_of_death": "1950-01-21"
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 2,
+        "fields": {
+            "first_name": "Ray",
+            "last_name": "Bradbury",
+            "date_of_birth": "1920-08-22",
+            "date_of_death": "2012-06-05"
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 3,
+        "fields": {
+            "first_name": "Gabriel",
+            "last_name": "García Márquez",
+            "date_of_birth": "1927-03-06",
+            "date_of_death": "2014-04-17"
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 4,
+        "fields": {
+            "first_name": "Harper",
+            "last_name": "Lee",
+            "date_of_birth": "1926-04-28",
+            "date_of_death": "2016-02-19"
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 5,
+        "fields": {
+            "first_name": "Ernest",
+            "last_name": "Hemingway",
+            "date_of_birth": "1899-07-21",
+            "date_of_death": "1961-07-02"
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 6,
+        "fields": {
+            "first_name": "Fyodor",
+            "last_name": "Dostoyevsky",
+            "date_of_birth": "1821-11-11",
+            "date_of_death": "1881-02-09"
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 7,
+        "fields": {
+            "first_name": "Leopoldo",
+            "last_name": "Abadía",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 8,
+        "fields": {
+            "first_name": "Ged.",
+            "last_name": "Adamson",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 9,
+        "fields": {
+            "first_name": "Irene",
+            "last_name": "Adler",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 10,
+        "fields": {
+            "first_name": "Ana",
+            "last_name": "Alcolea",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 11,
+        "fields": {
+            "first_name": "Dolly.",
+            "last_name": "Alderton",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 12,
+        "fields": {
+            "first_name": "Isabel",
+            "last_name": "Allende",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 13,
+        "fields": {
+            "first_name": "Mario.",
+            "last_name": "Alonso Puig",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 14,
+        "fields": {
+            "first_name": "Antonio",
+            "last_name": "Altarriba",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 15,
+        "fields": {
+            "first_name": "Eduard.",
+            "last_name": "Altarriba",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 16,
+        "fields": {
+            "first_name": "Macu.",
+            "last_name": "Álvaro",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 17,
+        "fields": {
+            "first_name": "Carlos del",
+            "last_name": "Amor",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 18,
+        "fields": {
+            "first_name": "Hans Christian",
+            "last_name": "Andersen",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 19,
+        "fields": {
+            "first_name": "Mitsumasa",
+            "last_name": "Anno",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 20,
+        "fields": {
+            "first_name": "Mariano",
+            "last_name": "Anós",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 21,
+        "fields": {
+            "first_name": "Martina d'",
+            "last_name": "Antiochia",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 22,
+        "fields": {
+            "first_name": "Pau.",
+            "last_name": "Antón Pascual",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 23,
+        "fields": {
+            "first_name": "Antonella",
+            "last_name": "Antonelli",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 24,
+        "fields": {
+            "first_name": "Daniel.",
+            "last_name": "Aquillué Domínguez",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 25,
+        "fields": {
+            "first_name": "Fernando",
+            "last_name": "Aramburu",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 26,
+        "fields": {
+            "first_name": "Begoña",
+            "last_name": "Aranguren",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 27,
+        "fields": {
+            "first_name": "Hannah",
+            "last_name": "Arendt",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 28,
+        "fields": {
+            "first_name": "Duane",
+            "last_name": "Armitage",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 29,
+        "fields": {
+            "first_name": "Juan",
+            "last_name": "Arnau",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 30,
+        "fields": {
+            "first_name": "Sari.",
+            "last_name": "Arponen",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 31,
+        "fields": {
+            "first_name": "Almudena de.",
+            "last_name": "Arteaga",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 32,
+        "fields": {
+            "first_name": "Isaac",
+            "last_name": "Asimov",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 33,
+        "fields": {
+            "first_name": "Helena.",
+            "last_name": "Attlee",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 34,
+        "fields": {
+            "first_name": "Iván",
+            "last_name": "Babiano Nieto",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 35,
+        "fields": {
+            "first_name": "Pierdomenico",
+            "last_name": "Baccalario",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 36,
+        "fields": {
+            "first_name": "Erich",
+            "last_name": "Ballinger",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 37,
+        "fields": {
+            "first_name": "Steven",
+            "last_name": "Banks",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 38,
+        "fields": {
+            "first_name": "Elia",
+            "last_name": "Barceló",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 39,
+        "fields": {
+            "first_name": "Leigh.",
+            "last_name": "Bardugo",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 40,
+        "fields": {
+            "first_name": "Alessandro",
+            "last_name": "Baricco",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 41,
+        "fields": {
+            "first_name": "J. D.",
+            "last_name": "Barker",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 42,
+        "fields": {
+            "first_name": "Meg-John",
+            "last_name": "Barker",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 43,
+        "fields": {
+            "first_name": "Pablo",
+            "last_name": "Barrena",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 44,
+        "fields": {
+            "first_name": "David",
+            "last_name": "Barreras",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 45,
+        "fields": {
+            "first_name": "Joaquin M",
+            "last_name": "Barrero",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 46,
+        "fields": {
+            "first_name": "Alick.",
+            "last_name": "Bartholomew",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 47,
+        "fields": {
+            "first_name": "Giacomo.",
+            "last_name": "Bassi",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 48,
+        "fields": {
+            "first_name": "",
+            "last_name": "Batem",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 49,
+        "fields": {
+            "first_name": "Mary",
+            "last_name": "Beard",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 50,
+        "fields": {
+            "first_name": "Lucía",
+            "last_name": "Bellido",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 51,
+        "fields": {
+            "first_name": "Jeremy.",
+            "last_name": "Belpois",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 52,
+        "fields": {
+            "first_name": "Catherine.",
+            "last_name": "Belton",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 53,
+        "fields": {
+            "first_name": "Elísabet",
+            "last_name": "Benavent",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 54,
+        "fields": {
+            "first_name": "Peter.",
+            "last_name": "Berg",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 55,
+        "fields": {
+            "first_name": "Xavier",
+            "last_name": "Bertran",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 56,
+        "fields": {
+            "first_name": "Santiago",
+            "last_name": "Beruete",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 57,
+        "fields": {
+            "first_name": "Ghislaine",
+            "last_name": "Biondi",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 58,
+        "fields": {
+            "first_name": "Helen.",
+            "last_name": "Birch",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 59,
+        "fields": {
+            "first_name": "Aaron",
+            "last_name": "Blabey",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 60,
+        "fields": {
+            "first_name": "Adam.",
+            "last_name": "Blade",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 61,
+        "fields": {
+            "first_name": "Elena.",
+            "last_name": "Blanco",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 62,
+        "fields": {
+            "first_name": "",
+            "last_name": "Blue Jeans.",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 63,
+        "fields": {
+            "first_name": "Enid",
+            "last_name": "Blyton",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 64,
+        "fields": {
+            "first_name": "Aldo.",
+            "last_name": "Boetto",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 65,
+        "fields": {
+            "first_name": "Juan",
+            "last_name": "Bolea",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 66,
+        "fields": {
+            "first_name": "Emily.",
+            "last_name": "Bone",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 67,
+        "fields": {
+            "first_name": "Paloma",
+            "last_name": "Bordons",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 68,
+        "fields": {
+            "first_name": "Marianne.",
+            "last_name": "Borgardt",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 69,
+        "fields": {
+            "first_name": "Cecilio",
+            "last_name": "Bravo Bravo",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 70,
+        "fields": {
+            "first_name": "Gastón",
+            "last_name": "Caba",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 71,
+        "fields": {
+            "first_name": "David",
+            "last_name": "Calvo",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 72,
+        "fields": {
+            "first_name": "José",
+            "last_name": "Calvo Poyato",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 73,
+        "fields": {
+            "first_name": "Mª Felicidad.",
+            "last_name": "Campal García",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 74,
+        "fields": {
+            "first_name": "Curro",
+            "last_name": "Cañete",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 75,
+        "fields": {
+            "first_name": "Martín",
+            "last_name": "Caparrós",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 76,
+        "fields": {
+            "first_name": "Roser",
+            "last_name": "Capdevila",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 77,
+        "fields": {
+            "first_name": "Jorge D.",
+            "last_name": "Casamayor",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 78,
+        "fields": {
+            "first_name": "Martín",
+            "last_name": "Casariego",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 79,
+        "fields": {
+            "first_name": "Kiera.",
+            "last_name": "Cass",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 80,
+        "fields": {
+            "first_name": "María Cecilia.",
+            "last_name": "Cavallone",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 81,
+        "fields": {
+            "first_name": "Miguel de",
+            "last_name": "Cervantes Saavedra",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 82,
+        "fields": {
+            "first_name": "Émilie",
+            "last_name": "Chazerand",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 83,
+        "fields": {
+            "first_name": "Delphine",
+            "last_name": "Chedru",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 84,
+        "fields": {
+            "first_name": "Nathalie",
+            "last_name": "Choux",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 85,
+        "fields": {
+            "first_name": "Agatha",
+            "last_name": "Christie",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 86,
+        "fields": {
+            "first_name": "Antón.",
+            "last_name": "Chusé Gil",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 87,
+        "fields": {
+            "first_name": "Cassandra.",
+            "last_name": "Clare",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 88,
+        "fields": {
+            "first_name": "Pau.",
+            "last_name": "Clua",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 89,
+        "fields": {
+            "first_name": "Pau.",
+            "last_name": "Clúa Sarró",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 90,
+        "fields": {
+            "first_name": "Suzanne.",
+            "last_name": "Collins",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 91,
+        "fields": {
+            "first_name": "Tim.",
+            "last_name": "Collins",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 92,
+        "fields": {
+            "first_name": "John",
+            "last_name": "Connolly",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 93,
+        "fields": {
+            "first_name": "Jaume",
+            "last_name": "Copons",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 94,
+        "fields": {
+            "first_name": "Jordi.",
+            "last_name": "Corominas",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 95,
+        "fields": {
+            "first_name": "José Luis",
+            "last_name": "Corral Lafuente",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 96,
+        "fields": {
+            "first_name": "Paulo.",
+            "last_name": "Cosín Fernández",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 97,
+        "fields": {
+            "first_name": "",
+            "last_name": "Costa Alcalá.",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 98,
+        "fields": {
+            "first_name": "Roald",
+            "last_name": "Dahl",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 99,
+        "fields": {
+            "first_name": "Mikki.",
+            "last_name": "Daughtry",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 100,
+        "fields": {
+            "first_name": "Benji.",
+            "last_name": "Davies",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 101,
+        "fields": {
+            "first_name": "David.",
+            "last_name": "Day",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 102,
+        "fields": {
+            "first_name": "Katie.",
+            "last_name": "Daynes",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 103,
+        "fields": {
+            "first_name": "Bérengère.",
+            "last_name": "Delaporte",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 104,
+        "fields": {
+            "first_name": "Jean-Christophe",
+            "last_name": "Derrien",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 105,
+        "fields": {
+            "first_name": "Raquel",
+            "last_name": "Díaz Reguera",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 106,
+        "fields": {
+            "first_name": "Fernando",
+            "last_name": "Díaz Villanueva",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 107,
+        "fields": {
+            "first_name": "Jöel",
+            "last_name": "Dicker",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 108,
+        "fields": {
+            "first_name": "Roman.",
+            "last_name": "Dirge",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 109,
+        "fields": {
+            "first_name": "",
+            "last_name": "Disney Enterprises",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 110,
+        "fields": {
+            "first_name": "Julio",
+            "last_name": "Donoso",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 111,
+        "fields": {
+            "first_name": "Beatriz.",
+            "last_name": "Doumerc",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 112,
+        "fields": {
+            "first_name": "",
+            "last_name": "Doyle",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 113,
+        "fields": {
+            "first_name": "Marianne.",
+            "last_name": "Dubuc",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 114,
+        "fields": {
+            "first_name": "Shannon.",
+            "last_name": "Dunlap",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 115,
+        "fields": {
+            "first_name": "Isa.",
+            "last_name": "Duque",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 116,
+        "fields": {
+            "first_name": "Elizabeth",
+            "last_name": "Duval",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 117,
+        "fields": {
+            "first_name": "Rob.",
+            "last_name": "Eastaway",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 118,
+        "fields": {
+            "first_name": "Edith.",
+            "last_name": "Eger",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 119,
+        "fields": {
+            "first_name": "",
+            "last_name": "El Gran Wyoming",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 120,
+        "fields": {
+            "first_name": "",
+            "last_name": "Elle",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 121,
+        "fields": {
+            "first_name": "Akwaeke",
+            "last_name": "Emezi",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 122,
+        "fields": {
+            "first_name": "Aina S.",
+            "last_name": "Erice",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 123,
+        "fields": {
+            "first_name": "Laura",
+            "last_name": "Escanes",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 124,
+        "fields": {
+            "first_name": "Joaquín.",
+            "last_name": "Escuder Viruete",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 125,
+        "fields": {
+            "first_name": "Juan",
+            "last_name": "Eslava Galán",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 126,
+        "fields": {
+            "first_name": "José Javier",
+            "last_name": "Esparza",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 127,
+        "fields": {
+            "first_name": "Diego de",
+            "last_name": "Espés",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 128,
+        "fields": {
+            "first_name": "Albert",
+            "last_name": "Espinosa",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 129,
+        "fields": {
+            "first_name": "Andrea",
+            "last_name": "Ferrari",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 130,
+        "fields": {
+            "first_name": "Robert",
+            "last_name": "Fisher",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 131,
+        "fields": {
+            "first_name": "Gillian.",
+            "last_name": "Flynn",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 132,
+        "fields": {
+            "first_name": "David",
+            "last_name": "Foenkinos",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 133,
+        "fields": {
+            "first_name": "Jean-Martin.",
+            "last_name": "Fortier",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 134,
+        "fields": {
+            "first_name": "Antonio",
+            "last_name": "Fortún Paesa",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 135,
+        "fields": {
+            "first_name": "Carlo",
+            "last_name": "Frabetti",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 136,
+        "fields": {
+            "first_name": "Vivian.",
+            "last_name": "French",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 137,
+        "fields": {
+            "first_name": "Tom.",
+            "last_name": "Froese",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 138,
+        "fields": {
+            "first_name": "Ana",
+            "last_name": "Galán",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 139,
+        "fields": {
+            "first_name": "José Luis.",
+            "last_name": "Galar Gimeno",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 140,
+        "fields": {
+            "first_name": "Mark",
+            "last_name": "Galeotti",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 141,
+        "fields": {
+            "first_name": "R. W.",
+            "last_name": "Galland",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 142,
+        "fields": {
+            "first_name": "Isabel.",
+            "last_name": "Gallego Córcoles",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 143,
+        "fields": {
+            "first_name": "Laura",
+            "last_name": "Gallego García",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 144,
+        "fields": {
+            "first_name": "Stephanie.",
+            "last_name": "Garber",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 145,
+        "fields": {
+            "first_name": "Alejandro.",
+            "last_name": "García Gil",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 146,
+        "fields": {
+            "first_name": "Federico",
+            "last_name": "García Lorca",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 147,
+        "fields": {
+            "first_name": "Fernando.",
+            "last_name": "García Marí",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 148,
+        "fields": {
+            "first_name": "Antonio",
+            "last_name": "Gargallo Gil",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 149,
+        "fields": {
+            "first_name": "Luigi",
+            "last_name": "Garlando",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 150,
+        "fields": {
+            "first_name": "Hernán",
+            "last_name": "Garrido-Lecca",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 151,
+        "fields": {
+            "first_name": "James.",
+            "last_name": "Gelsey",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 152,
+        "fields": {
+            "first_name": "Tess.",
+            "last_name": "Gerritsen",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 153,
+        "fields": {
+            "first_name": "Carmen",
+            "last_name": "Gil",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 154,
+        "fields": {
+            "first_name": "Javier",
+            "last_name": "Gila",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 155,
+        "fields": {
+            "first_name": "Alicia",
+            "last_name": "Giménez Bartlett",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 156,
+        "fields": {
+            "first_name": "Gonzalo",
+            "last_name": "Giner",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 157,
+        "fields": {
+            "first_name": "Alfredo",
+            "last_name": "Gómez Cerdá",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 158,
+        "fields": {
+            "first_name": "J. Ramón",
+            "last_name": "Gómez Fernández",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 159,
+        "fields": {
+            "first_name": "Juan",
+            "last_name": "Gómez-Jurado",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 160,
+        "fields": {
+            "first_name": "Katerina.",
+            "last_name": "Gorelik",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 161,
+        "fields": {
+            "first_name": "Josep",
+            "last_name": "Gòrriz",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 162,
+        "fields": {
+            "first_name": "Almudena",
+            "last_name": "Grandes",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 163,
+        "fields": {
+            "first_name": "Luis.",
+            "last_name": "Grañena",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 164,
+        "fields": {
+            "first_name": "Amélie",
+            "last_name": "Graux",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 165,
+        "fields": {
+            "first_name": "Clara.",
+            "last_name": "Grima",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 166,
+        "fields": {
+            "first_name": "Antonio.",
+            "last_name": "Gude",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 167,
+        "fields": {
+            "first_name": "José María",
+            "last_name": "Guelbenzu",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 168,
+        "fields": {
+            "first_name": "Alfonso",
+            "last_name": "Guerra",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 169,
+        "fields": {
+            "first_name": "Agustina.",
+            "last_name": "Guerrero",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 170,
+        "fields": {
+            "first_name": "Abdulrazak",
+            "last_name": "Gurnah",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 171,
+        "fields": {
+            "first_name": "Colas",
+            "last_name": "Gutman",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 172,
+        "fields": {
+            "first_name": "Byung-Chul.",
+            "last_name": "Han",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 173,
+        "fields": {
+            "first_name": "Helene",
+            "last_name": "Hanff",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 174,
+        "fields": {
+            "first_name": "Victoria.",
+            "last_name": "Hanley",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 175,
+        "fields": {
+            "first_name": "Thomas",
+            "last_name": "Harris",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 176,
+        "fields": {
+            "first_name": "Lukas",
+            "last_name": "Hartmann",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 177,
+        "fields": {
+            "first_name": "José María.",
+            "last_name": "Heras Varela",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 178,
+        "fields": {
+            "first_name": "Brian.",
+            "last_name": "Herbert",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 179,
+        "fields": {
+            "first_name": "",
+            "last_name": "Hergé",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 180,
+        "fields": {
+            "first_name": "Mili.",
+            "last_name": "Hernández",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 181,
+        "fields": {
+            "first_name": "Michel",
+            "last_name": "Houellebecq",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 182,
+        "fields": {
+            "first_name": "Ina.",
+            "last_name": "Hristova",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 183,
+        "fields": {
+            "first_name": "Màxim",
+            "last_name": "Huerta",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 184,
+        "fields": {
+            "first_name": "Fiona.",
+            "last_name": "Huisman",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 185,
+        "fields": {
+            "first_name": "Siri.",
+            "last_name": "Hustvedt",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 186,
+        "fields": {
+            "first_name": "F",
+            "last_name": "Ibáñez",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 187,
+        "fields": {
+            "first_name": "Gracia",
+            "last_name": "Iglesias",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 188,
+        "fields": {
+            "first_name": "Pablo",
+            "last_name": "Iglesias Turrión",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 189,
+        "fields": {
+            "first_name": "Javier.",
+            "last_name": "Inaraja",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 190,
+        "fields": {
+            "first_name": "Jessie.",
+            "last_name": "Inchauspé",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 191,
+        "fields": {
+            "first_name": "Lourdes.",
+            "last_name": "Íñiguez Barrena",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    },
+    {
+        "model": "catalog.author",
+        "pk": 192,
+        "fields": {
+            "first_name": "Saúl M.",
+            "last_name": "Irigaray",
+            "date_of_birth": null,
+            "date_of_death": null
+        }
+    }
+]

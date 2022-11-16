@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}Inicio Biblioteca{% endblock %}
+
+{% block content %}
+    <h1>Mi local library</h1>
+    <hr>
+    <p>Has visitado la página {{ num_visits }}</p>
+
+<h2>Información general</h2>
+<p>El número de libros es: {{ num_books }}</p>
+<p>El número de ejemplares de libros es: {{ num_instances }}</p>
+<p>El número de libros disponibles es: {{ num_instances_available }}</p>
+<p>El número de autores es: {{ num_authors }}</p>
+<hr>
+<h2>Últimos libros</h2>
+<ul>
+{% for book in ultimos %}
+  <li><strong>{{ book.title }}</strong> :: {{book.author}}</li>
+{% endfor %}
+</ul>
+{% endblock %}

@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Inicio Biblioteca{% endblock %}
+
+{% block content %}
+        <div class="px-4 py-5 my-5 text-center">
+        <img class="d-block mx-auto mb-4" src="{% static 'img/logo.svg' %}" 
+            alt="" width="80%">
+        <h1 class="display-5 fw-bold">Local Library</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">Biblioteca especializada en libros de acción ...</p>
+          
+        </div>
+      </div>
+
+{% endblock %}

@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Listado de libros{% endblock %}
+
+{% block content %}
+<h1>Listado de libros</h1>
+<h2>{{ ahora }}</h2>
+{% if anterior %}
+<a href="{{ anterior }}">Volver</a>
+{% endif %}
+<ul class="list-group">
+    {% for libro in book_list %}
+
+    <li class="list-group-item"><a href="{% url 'detalle-libro' libro.id %}">{{ libro }}</a></li>
+
+
+    {% empty %} <!--Si no hay libros-->
+        <li class="list-group-item">No hay libros que coincida con <strong>{{ query }}</strong></li>
+
+    {% endfor %}
+
+</ul>
+
+<!--Para que salga debajo de todo para cambiar de página-->
+
+<div class="pagination">
+    <span class="step-links">
+        {% if page_obj.has_previous %}
+            <a href="?page=1">&laquo;</a>
+            <a href="?page={{ page_obj.previous_page_number }}">{{ page_obj.previous_page_number }}</a>
+        {% endif %}
+
+        
+        <span class="current">
+            Página {{ page_obj.number }} de {{ page_obj.paginator.num_pages }}.
+        </span>
+
+        {% if page_obj.has_next %}
+            <a href="?page={{ page_obj.next_page_number }}">{{ page_obj.next_page_number }}</a>
+            <a href="?page={{ page_obj.paginator.num_pages }}"> &raquo;</a>
+        {% endif %}
+    </span>
+</div>
+{% endblock %}
