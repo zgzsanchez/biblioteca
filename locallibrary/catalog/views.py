@@ -4,8 +4,10 @@ from catalog.models import Book, BookInstance, Author
 from django.views import generic
 from django.views.generic import ListView, DetailView
 import datetime
-from catalog.forms import RenewBookForm
-from django.urls import reverse
+from catalog.forms import RenewBookForm, RenewBookModelForm
+from django.urls import reverse, reverse_lazy
+from django.views.generic.edit import CreateView, UpdateView, DeleteView
+
 
 
 # Create your views here.
@@ -118,12 +120,12 @@ def renovar_libro(request, pk):
     if request.method == 'POST':
 
         # Create a form instance and populate it with data from the request (binding):
-        form = RenewBookForm(request.POST)
+        form = RenewBookModelForm(request.POST)
 
         # Check if the form is valid:
         if form.is_valid():
             # process the data in form.cleaned_data as required (here we just write it to the model due_back field)
-            book_instance.due_back = form.cleaned_data['renewal_date']
+            book_instance.due_back = form.cleaned_data['due_back']
             book_instance.save()
 
             # redirect to a new URL:
@@ -133,7 +135,7 @@ def renovar_libro(request, pk):
     else:
         #inicializa la fecha de renovación dentro de 3 semanas
         proposed_renewal_date = datetime.date.today() + datetime.timedelta(weeks=3)
-        form = RenewBookForm(initial={'renewal_date': proposed_renewal_date})
+        form = RenewBookModelForm(initial={'due_back': proposed_renewal_date})
 
     context = { 
         'form': form, 
@@ -141,5 +143,19 @@ def renovar_libro(request, pk):
     }
     return render(request, 'catalog/renovacion_fecha.html', context)
 
+## Gestióm de autores con vistas genéricas
+class AuthorCreate(CreateView):
+    model = Author
+    fields = ['first_name', 'last_name', 'date_of_birth', 'date_of_death']
+    success_url = reverse_lazy('lista-autores')
+    #initial = {'date_of_death': '11/06/2020'}
+
+class AuthorUpdate(UpdateView):
+    model = Author
+    fields = '__all__' # Not recommended (potential security issue if more fields added)
+
+class AuthorDelete(DeleteView):
+    model = Author
+    success_url = reverse_lazy('lista-autores')
 
 

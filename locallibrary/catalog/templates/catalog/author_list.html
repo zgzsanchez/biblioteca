@@ -5,11 +5,21 @@
      
     {% block content %}
     <h1>Listado de autores</h1>
-    <ul class="list-group">
-        {% for autor in author_list %}
-        <li class="list-group-item"><a href="{% url 'detalle-autor' autor.id %}">{{ autor }}</a></li>
-        {% endfor %}
-    </ul>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">Autor</th>
+                    <th scope="col">Modificar</th>
+                    <th scope="col">Eliminar</th>
+                </tr>
+            {% for autor in author_list %}
+            <tr>
+                <td><a href="{% url 'detalle-autor' autor.id %}">{{ autor }}</a></td>
+                <td><a href="{% url 'author-update' autor.id %}">&#9999;</a></td>
+                <td><a href="{% url 'author-delete' autor.id %}">&#128465;</a></td>
+            </tr>
+            {% endfor %}
+        </table>
     <!--Para que salga debajo de todo para cambiar de página-->
     <div class="pagination">
         <span class="step-links">
