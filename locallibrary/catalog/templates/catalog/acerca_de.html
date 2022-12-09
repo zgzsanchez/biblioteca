@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+
+
+{% block title %} {{ title }}
+{% endblock %}
+
+{% block extracss %}
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+  crossorigin="" />
+
+<style>
+  #map {
+    height: 400px;
+  }
+</style>
+{% endblock %}
+
+
+{% block content %}
+<h1 class="my-4 text-center">{{ title }}</h1>
+<div class="row">
+  <div class="col-md-6">
+    <div id="map"></div>
+  </div>
+  <div class="col-md-6">
+    <form method="post">
+      {% csrf_token %}
+      {{ form.as_p }}
+      <div class="form-actions">
+        <button class="btn btn-primary" type="submit">Send</button>
+      </div>
+    </form>
+  </div>
+</div>
+{% endblock %}
+
+{% block extrajs %}
+
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+  integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+  crossorigin=""></script>
+
+<script>
+  var mimapa = L.map('map').setView([{{ coords }}], 13);
+
+  L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>',
+    maxZoom: 18
+  }).addTo(mimapa);
+
+  L.marker([{{ coords }}]).addTo(mimapa).bindPopup("CPI Los Enlaces");
+</script>
+
+
+{% endblock %}

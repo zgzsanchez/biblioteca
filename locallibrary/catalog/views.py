@@ -7,6 +7,10 @@ import datetime
 from catalog.forms import RenewBookForm, RenewBookModelForm
 from django.urls import reverse, reverse_lazy
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
+from catalog.forms import ContactForm
+from django.core.mail import send_mail, BadHeaderError
+from django.contrib import messages
+from django.utils.translation import gettext_lazy as _
 
 
 
@@ -16,12 +20,26 @@ def index_general(request):
     return render(request, 'index-general.html')
 
 def acerca_de(request):
-    texto = '''<h1>Acerca de</h1>
-    <p>Esta es la página de acerca de de la librería local.</p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/EZ5sIrfmSwc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    
-    '''
-    return HttpResponse(texto)
+    if request.method == 'POST':
+        form = ContactForm(request.POST)
+        if form.is_valid():
+            subject = form.cleaned_data['subject']
+            from_email = form.cleaned_data['from_email']
+            message = form.cleaned_data['message']
+            try:
+                send_mail(subject, message, from_email, ['admin@example.com'])
+            except BadHeaderError:
+                return HttpResponse('Invalid header found.')
+            messages.success(request, _('Message sent successfully!'))
+            return HttpResponseRedirect(reverse('index'))
+        messages.error(request, _("Error. Message not sent."))
+
+    context = {}
+    context['title'] = 'Acerca de'
+    context['coords'] = '41.656771,-0.8960287'  # "41.6447242,-0.9231553"
+    context['form'] = ContactForm()
+
+    return render(request, 'catalog/acerca_de.html', context)
 
 def index(request):
     """View function for home page of site."""
@@ -153,6 +171,7 @@ class AuthorCreate(CreateView):
 class AuthorUpdate(UpdateView):
     model = Author
     fields = '__all__' # Not recommended (potential security issue if more fields added)
+    success_url = reverse_lazy('lista-autores')
 
 class AuthorDelete(DeleteView):
     model = Author
